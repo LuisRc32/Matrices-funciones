@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int Suma(int a, int b){
+	int add;
+	add= a+b;
+	return (add);
+}
+
+int main() {
+  int num1, num2, sum;
+	printf ("Introducir 2 numeros a sumar:\n");
+	scanf ("%d %d",&num1, &num2);
+	
+	sum= Suma(num1, num2);
+	printf ("La suma de los numeros es = %d\n",sum);
+
+  printf ("\n\n--------FIN DEL PROGRAMA--------");	
+	return 0;
+}
